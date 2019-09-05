@@ -1,7 +1,7 @@
-
+// Maryna-start
 // bread-crumb
 .breadcrumb {
-  padding: 30px 0 23px;
+  padding: 30px 0 0;
   .breadcrumb-list {
     display: flex;
     padding: 0;
@@ -25,13 +25,11 @@
 }
 
 // content-section
+
 .content-section {
-    padding-top: 48px;
-    padding-bottom: 135px;
-    padding-right: 15px;
-    padding-left: 15px;
-    background-color: #f4f6f5;
-  
+    padding: 22px 15px 110px 15px;
+    background-color: $base-background-color;
+
   .row {
     display: flex;
   }
@@ -39,7 +37,7 @@
     .col {
       position: relative;
       min-height: 1px;
-      padding: 0 15px;
+      padding: 0 15px 0 0;
       width: 25%;
      }
 
@@ -54,25 +52,25 @@
     max-width: 75%;
 }
 
-// left-section
+// sidebar-products
 
-.left-section {
+.sidebar-products {
     width: 100%;
     background-color: #fff;
     border: solid 1px #dedede;
     padding: 25px 30px;
     margin-bottom: 30px;
 
-  .left-section-title {
+  .sidebar-products-title {
     font-size: 20px;
     font-weight: 700;
-    color: #263238;
+    color: $dark-blue;
     border-bottom: solid 1px #dedede;
     padding-bottom: 20px;
   }
 
     li {
-      color: #263238;
+      color: $dark-blue;
       font-size: 14px;
       padding-top: 20px;
       justify-content: space-between!important;
@@ -85,13 +83,13 @@
     }
 }
 
-.left-section #list {
+.sidebar-products #list {
   @extend %listreset;
 
   li {
     position: relative;
     padding-top: 20px;
-    color: #263238;
+    color: $dark-blue;
     font-size: 14px;
 
     &:before {
@@ -112,12 +110,12 @@
     }
 
     a {
-      color: #263238;
+      color: $dark-blue;
     }
   }
 }
 
-.left-section ul span {
+.sidebar-products ul span {
     margin-left: 20px;
 }
 
@@ -144,6 +142,7 @@
 }
 
 // card-start
+
 .card {
    border-radius: 0;
    border-color: #d9e0e3;
@@ -154,7 +153,7 @@
     }
 
     .card-item-title {
-      color: #263238;
+      color: $dark-blue;
       font-weight: 700;
       font-size: 16px;
       padding-bottom: 10px;
@@ -166,13 +165,13 @@
     }
   
     .card-item-category {
-        color: #8bc34a;
+        color: $green;
         font-weight: 500;
         font-size: 14px;
     }
 
       .card-price {
-        color: #263238;
+        color: $white;
         font-weight: 700;
         font-size: 16px;
         margin-left: auto!important;
@@ -187,14 +186,12 @@
     padding: 20px 0 29px;
     border-bottom: 1px solid #d9e0e3;
 
-    .author {
-      width: 50%;
-      display: flex;
-      align-items: center;
-      padding-right: 10px;
-      flex-wrap: wrap;
-      font-size: 14px;
+    .author-name {
       color: #546e7a;
+      font-weight: 500;
+      font-size: 14px;
+      padding-left: 12px;
+      margin-left: 0;
     }
 
       .round-img {
@@ -217,17 +214,10 @@
     }
 }
 
-// card-end
+// card-end Maryna-end
 
 
-
-
-
-
-
-
-
-// dima
+// Dima-start
 
 a {
    text-decoration: none;
@@ -671,5 +661,5 @@ a {
    }
 }
 
-product-list
+// Dima-end
 
